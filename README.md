@@ -20,4 +20,4 @@ The following diagram sugest the way to modularizated by feature + layer
 ## Inrastrcuture
 
 
-![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/85bbfce8-8a97-402d-8f61-d73fd89b147f)
+![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/ded37940-5db1-42d8-9384-65e7aab67add)
