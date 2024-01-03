@@ -12,9 +12,9 @@ A banking app demonstrates modern Android development using Hilt, Coroutines, Je
 
 ## Architecture
 
-The following diagram tells the way to modularizated by feature + layer
+The following diagram sugest the way to modularizated by feature + layer
 
 
-![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/9e7da609-7c09-46fd-9c30-e3245d08dfb4)
+![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/a3b72049-d307-4d5b-9419-65505f56dda0)
 
 
