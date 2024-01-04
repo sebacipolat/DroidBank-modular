@@ -17,17 +17,24 @@ The following diagram sugest the way to modularizated by feature + layer
 
 ![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/a3b72049-d307-4d5b-9419-65505f56dda0)
 
-## Infrastructure
+## TechStack:
 
-TechStack:
+Release process tools:
 
 * CI/CD: [Bitrise](https://bitrise.io/)
 * Repository: [Gitlab](https://about.gitlab.com/)
 * Android libraries storage and distribution: [jfrog](https://jfrog.com/integration/android-repository/)
 * App Distribution:  [Firebase App Distribution](https://firebase.google.com/docs/app-distribution?hl=es-419)
-* Linter: [ktlint](https://pinterest.github.io/ktlint/)
 
+Quality assurance:
+
+We will use unit test, integration test an end to end test.
+
+* Linter: [ktlint](https://pinterest.github.io/ktlint/)
+* Plugin coverage and test report_ [Jacoco: ](https://docs.gradle.org/current/userguide/jacoco_plugin.html)
+* UI Test: [Maestro.dev](https://maestro.mobile.dev/)
 ![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/ded37940-5db1-42d8-9384-65e7aab67add)
+*Unit test: Junit, mockK, Roboelectric
 
 Workflow:
 
@@ -41,8 +48,5 @@ Workflow:
 
 * The final stage will be deploy to Google Play
 
-## Testing:
-
-We will use unit test, integration test an end to end test.
 
 
