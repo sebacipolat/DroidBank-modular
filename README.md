@@ -20,12 +20,16 @@ The following diagram sugest the way to modularizated by feature + layer
 ## Infrastructure
 
 TechStack:
+
 * CI/CD: [Bitrise](https://bitrise.io/)
 * Repository: [Gitlab](https://about.gitlab.com/)
 * Android libraries storage and distribution: [jfrog](https://jfrog.com/integration/android-repository/)
 * App Distribution:  [Firebase App Distribution](https://firebase.google.com/docs/app-distribution?hl=es-419)
+* Linter: [ktlint](https://pinterest.github.io/ktlint/)
 
 ![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/ded37940-5db1-42d8-9384-65e7aab67add)
+
+Workflow:
 
 * When some one push code to an specific branch or when a mr is trigered trough a webhook will run an specific pipeline on Bitirse.
 
@@ -36,4 +40,9 @@ TechStack:
 * When the final build is ready we send to Firebase app distribution to allow testers to check the app.
 
 * The final stage will be deploy to Google Play
+
+## Testing:
+
+We will use unit test, integration test an end to end test.
+
 
