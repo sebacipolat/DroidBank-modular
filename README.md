@@ -33,8 +33,11 @@ We will use unit test, integration test an end to end test.
 * Linter: [ktlint](https://pinterest.github.io/ktlint/)
 * Plugin coverage and test report_ [Jacoco: ](https://docs.gradle.org/current/userguide/jacoco_plugin.html)
 * UI Test: [Maestro.dev](https://maestro.mobile.dev/)
+* Unit test: Junit, mockK, Roboelectric
+
+
 ![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/ded37940-5db1-42d8-9384-65e7aab67add)
-*Unit test: Junit, mockK, Roboelectric
+
 
 Workflow:
 
