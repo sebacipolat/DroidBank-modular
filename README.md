@@ -19,6 +19,11 @@ The following diagram sugest the way to modularizated by feature + layer
 
 ## Infrastructure
 
+TechStack:
+* CI/CD: [Bitrise](https://bitrise.io/)
+* Repository: [Gitlab](https://about.gitlab.com/)
+* Android libraries storage and distribution: [jfrog](https://jfrog.com/integration/android-repository/)
+* App Distribution:  [Firebase App Distribution](https://firebase.google.com/docs/app-distribution?hl=es-419)
 
 ![image](https://github.com/sebacipolat/DroidBank-modular/assets/1523404/ded37940-5db1-42d8-9384-65e7aab67add)
 
